@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courts",
+  "info": {
+    "singularName": "court",
+    "pluralName": "courts",
+    "displayName": "court"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "index": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

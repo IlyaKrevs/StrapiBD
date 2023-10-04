@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "procedures",
+  "info": {
+    "singularName": "procedure",
+    "pluralName": "procedures",
+    "displayName": "procedure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "debtor": {
+      "type": "string"
+    },
+    "caseNumber": {
+      "type": "integer"
+    },
+    "courtID": {
+      "type": "integer"
+    },
+    "arbitrationManagerID": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arbitration_managers",
+  "info": {
+    "singularName": "arbitration-manager",
+    "pluralName": "arbitration-managers",
+    "displayName": "arbitrationManager",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "registryNumber": {
+      "type": "integer"
+    }
+  }
+}
